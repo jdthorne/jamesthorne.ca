@@ -108,6 +108,9 @@ $(function() {
    $(window).bind("load", function() {
       isLoaded = true;
       clearWhiteout();
+   });
+
+   $(window).ready(function() {
 
       $(".go-back").bind("click", function() {
          closePanel();

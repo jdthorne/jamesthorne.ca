@@ -1,0 +1,14 @@
+Options +FollowSymLinks
+
+DirectoryIndex index.html
+RewriteEngine on
+
+RewriteCond %{REMOTE_ADDR} ^192\.168\.1\..+$
+RewriteCond %{REQUEST_URI} ^/mediacore$
+RewriteRule .* http://192.168.1.2:8083
+
+RewriteCond %{HTTP_HOST} ^dtscc.net
+RewriteRule ^(.*)$ http://www.jamesthorne.ca/$1 [r=301,nc]
+
+RewriteCond %{HTTP_HOST} jamesthorne.ca
+RewriteRule ^([^\.]+)$ http://www.jamesthorne.ca/#!$1 [NE,r=301,L]
