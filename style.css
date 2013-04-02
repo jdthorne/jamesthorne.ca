@@ -189,7 +189,7 @@ html>body #content
    padding-top: 2px;
    padding-right: 2px;
 
-   cursor: hand;
+   cursor: pointer;
 }
 
 .content-body
@@ -215,13 +215,14 @@ html>body #content
 
 a
 {
-   color: white;
-   text-decoration: underline;
+   color: #6D8FD0;
+   text-decoration: none;
 }
 
 a:hover
 {
-   color: #444;
+   color: #ccc;
+   text-decoration: underline;
 }
 
 p
@@ -242,7 +243,7 @@ p
 
 .go-back
 {
-   cursor: hand;
+   cursor: pointer;
 }
 
 
