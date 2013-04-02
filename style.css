@@ -1,0 +1,108 @@
+body
+{
+   overflow: hidden;
+}
+
+#background
+{
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   z-index: -2;
+}
+
+#whiteout
+{
+   position: absolute;;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+   bottom: 0px;
+
+   background-color: white;
+   z-index: -1;
+}
+
+body
+{
+   font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.titlebar
+{
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+   height: 82px;
+   background-color: #EEE;
+
+   text-align: right;
+}
+
+.name-banner
+{
+   position: absolute;
+   top: 30px;
+   left: -60px;
+   width: 627px;
+   height: 104px;
+
+   background-image: url(name-banner.png);
+}
+
+#menu-column
+{
+   position: absolute;
+   left: 0px;
+   top: 134px;
+   width: 430px;
+}
+
+.panel
+{
+   color: white;
+
+   text-align: left;
+
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 60px;
+   padding-right: 50px;
+
+   width: 360px;
+
+   cursor: pointer;
+   vertical-align: middle;
+}
+
+.panel-punchline
+{
+   display: inline-block;
+   font-size: 26pt;
+   font-weight: 700;
+
+   margin-top: -8px;
+   width: 160px;
+}
+
+.panel-intro
+{
+   display: inline;
+   font-size: 20pt;
+   font-weight: 200;
+
+   margin-left: 6px;
+}
+
+.panel:hover
+{
+   background: #444;
+}
+
+/* Color Schemes */
+#panel-professional { background-color: #6060A0; }
+#panel-projects     { background-color: #BD5E27; }
+#panel-film         { background-color: #5BB12F; }
+#panel-current      { background-color: #AF4036; }
+#panel-contact      { background-color: #C455AC; }
