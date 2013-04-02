@@ -1,5 +1,6 @@
 body
 {
+   background-color: black;
    overflow: hidden;
 }
 
@@ -7,8 +8,13 @@ body
 {
    position: absolute;
    top: 0px;
-   right: 0px;
+   left: 0px;
    z-index: -2;
+
+   -moz-user-select: none; 
+   -khtml-user-select: none; 
+   -webkit-user-select: none; 
+   -o-user-select: none; 
 }
 
 #whiteout
@@ -19,8 +25,8 @@ body
    right: 0px;
    bottom: 0px;
 
-   background-color: white;
-   z-index: -1;
+   background-color: black;
+   z-index: 5;
 }
 
 body
@@ -54,9 +60,9 @@ body
 #menu-column
 {
    position: absolute;
-   left: 0px;
-   top: 134px;
-   width: 430px;
+   right: 54px;
+   bottom: 54px;
+   width: 380px;
 }
 
 .panel
@@ -67,13 +73,15 @@ body
 
    padding-top: 10px;
    padding-bottom: 10px;
-   padding-left: 60px;
-   padding-right: 50px;
+   padding-left: 0px;
+   padding-right: 0px;
 
-   width: 360px;
+   width: 380px;
 
    cursor: pointer;
    vertical-align: middle;
+
+   height: 34px;
 }
 
 .panel-punchline
@@ -81,8 +89,10 @@ body
    display: inline-block;
    font-size: 26pt;
    font-weight: 700;
+   text-align: right;
 
    margin-top: -8px;
+   margin-right: 10px;
    width: 160px;
 }
 
@@ -100,9 +110,140 @@ body
    background: #444;
 }
 
+#gear-column
+{
+   position: absolute;
+   right: 434px;
+   bottom: 54px;
+
+   height: 270px;
+   width: 270px;
+   background: url(gear.jpg);
+}
+
+.panel-arrow
+{
+   display: inline;
+   font-size: 18px;
+}
+
 /* Color Schemes */
-#panel-professional { background-color: #6060A0; }
-#panel-projects     { background-color: #BD5E27; }
-#panel-film         { background-color: #5BB12F; }
-#panel-current      { background-color: #AF4036; }
-#panel-contact      { background-color: #C455AC; }
+.scheme-professional { background-color: #6060A0; }
+.scheme-projects     { background-color: #BD5E27; }
+.scheme-film         { background-color: #5BB12F; }
+.scheme-current      { background-color: #AF4036; }
+.scheme-contact      { background-color: #C455AC; }
+
+
+/* Popover Panel */
+#content
+{
+   overflow: scroll;
+   padding-bottom: 40px;
+
+   position: absolute;
+   z-index: 2;
+
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+
+   background-color: black;
+   background-color: rgba(0, 0, 0, 0.9);
+
+   display: none;
+}
+
+.content-title
+{
+   color: white;
+   font-size: 28pt;
+   font-weight: 600;
+
+   padding: 10px;
+   padding-left: 20px;
+
+   width: 640px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.content-title i
+{
+   float: right;
+   padding-top: 2px;
+   padding-right: 2px;
+
+   cursor: hand;
+}
+
+.content-body
+{
+   padding: 30px;
+}
+
+.content-text
+{
+   font-family: helvetica, arial, sans-serif;
+   color: white;
+   padding: 20px;
+
+   font-weight: 100;
+
+   width: 640px;
+
+   margin-left: auto;
+   margin-right: auto;
+
+   color: #eee;
+}
+
+a
+{
+   color: white;
+   text-decoration: underline;
+}
+
+a:hover
+{
+   color: #444;
+}
+
+p
+{
+   margin-bottom: 10px;
+}
+
+#content-back
+{
+   width: 300px;
+   font-size: 24pt;
+   color: white;
+
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+.go-back
+{
+   cursor: hand;
+}
+
+
+.go-back:hover, .go-back:hover *
+{
+   color: #444;
+}
+
+h1
+{
+   margin-top: 60px;
+   font-size: 28pt;
+
+   color: #eee;
+   border-top: solid 2px #eee;
+   padding-top: 10px;
+
+   font-family: "Yanone Kaffeesatz", sans-serif;
+}
