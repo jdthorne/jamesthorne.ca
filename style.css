@@ -67,6 +67,8 @@ body
    right: 54px;
    bottom: 54px;
    width: 380px;
+
+   height: 304px;
 }
 
 .panel
@@ -152,22 +154,17 @@ body
    padding-bottom: 40px;
 
    position: absolute;
-   z-index: 2;
+   z-index: 5;
 
    top: 0px;
    right: -1px;
    bottom: 0px;
    left: 0px;
 
-   background-color: black;
-   background-color: black rgba(0,0,0,0.9);
+   background-color: rgba(0,0,0,0.9);
+   *background-color: black;
 
    display: none;
-}
-
-html>body #content
-{
-   background-color: black;
 }
 
 .content-title
@@ -266,6 +263,8 @@ h1
 
 .check-out
 {
+   display: block;
+
    font-family: 'Oleo Script Swash Caps', cursive;
    font-size: 18pt;
    color: white;

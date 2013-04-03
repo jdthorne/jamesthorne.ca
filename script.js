@@ -2,12 +2,20 @@ $(function() {
    var isWhiteout = false;
    var whiteoutTimeout = null;
 
+   var isShowingContent = false;
+
    var makeAllPanelsAppear = function() {
+      if (isShowingContent)
+      {
+         $(".panel").css("margin-left", "0px");
+         return;
+      }
+
       var i = -1;
       var arr = $(".panel");
       (function(){
          if(arr[++i])
-         $(arr[i]).animate({width: 'show'}, 250, arguments.callee)
+            $(arr[i]).animate({'margin-left': '0px'}, 250, arguments.callee)
       })();
    };
 
@@ -31,7 +39,9 @@ $(function() {
 
       if (!isWhiteout)
       {
-         $("#whiteout").fadeIn(50);
+         $("#whiteout").fadeIn(50, function() {
+            $(".panel").css('margin-left', '500px');
+         });
 
          isWhiteout = true;
       }
@@ -70,6 +80,8 @@ $(function() {
 
       $("#content").fadeIn(duration);
 
+      isShowingContent = true;
+
       //location.replace(('' + window.location).split("#")[0] + "#!" + panelName);
       window.location.hash = "!" + panelName;
    };
@@ -77,6 +89,8 @@ $(function() {
    var closePanel = function() {
       $("#content").fadeOut();
       window.location.hash = "";
+
+      isShowingContent = false;
    };
 
    var getCurrentHashRequest = function() {
