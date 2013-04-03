@@ -1,9 +1,37 @@
 body
 {
-   background-color: black;
+   background-color: #333;
+
    overflow: hidden;
 
    min-height: 480px;
+}
+
+.background-holder
+{
+   background-image: linear-gradient(bottom, rgb(112,112,112) 0%, rgb(31,31,31) 100%);
+   background-image: -o-linear-gradient(bottom, rgb(112,112,112) 0%, rgb(31,31,31) 100%);
+   background-image: -moz-linear-gradient(bottom, rgb(112,112,112) 0%, rgb(31,31,31) 100%);
+   background-image: -webkit-linear-gradient(bottom, rgb(112,112,112) 0%, rgb(31,31,31) 100%);
+   background-image: -ms-linear-gradient(bottom, rgb(112,112,112) 0%, rgb(31,31,31) 100%);
+
+   background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0, rgb(112,112,112)),
+      color-stop(1, rgb(31,31,31))
+   );
+
+   position: absolute; 
+   left: 0px; 
+   top: 0px; 
+   bottom: 0px; 
+   right: 0px; 
+
+   z-index: -3;
+
+   overflow: hidden;
 }
 
 #background

@@ -1,0 +1,1375 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"FLA",
+				"FLAGS_HOVER	const int"
+			],
+			[
+				"simualte",
+				"simulateSensorDataWithoutStabilization(float front, float left, float right, float rear)	void"
+			],
+			[
+				"I_",
+				"I_SensorReader	class"
+			],
+			[
+				"pop",
+				"pop_front()	void"
+			],
+			[
+				"take",
+				"takeReadingForSensor(Sensor sensor)	void"
+			],
+			[
+				"mag",
+				"magnetoPsiAccuracy	float"
+			],
+			[
+				"comm",
+				"commandedValue	float"
+			],
+			[
+				"comma",
+				"commandPolarity	int"
+			],
+			[
+				"fly",
+				"flyIntoBackRightWall	std::string"
+			],
+			[
+				"fr",
+				"pop_front()	void"
+			],
+			[
+				"I_Comm",
+				"I_CommandSender"
+			],
+			[
+				"dist",
+				"distanceInM	double"
+			],
+			[
+				"init",
+				"initialized_	bool"
+			],
+			[
+				"exp",
+				"expectedLeft	double"
+			],
+			[
+				"ex",
+				"expectedMessage	std::stringstream"
+			],
+			[
+				"abos",
+				"absolutePositionOf(const Vector point)	Vector"
+			],
+			[
+				"connec",
+				"connectionPoints_	QList<Vector>"
+			],
+			[
+				"f",
+				"glowForTeam(int teamId, double glow)	Color"
+			],
+			[
+				"right",
+				"rightSidebar_	QWidget *"
+			],
+			[
+				"abs",
+				"absoluteAddOrientation	Quaternion"
+			],
+			[
+				"create",
+				"createSwarmer(World &world, const Vector position, const Vector velocity, int team)	Ship *"
+			],
+			[
+				"focu",
+				"focusOnRandomItem()	void"
+			],
+			[
+				"focus",
+				"focusItem_	WorldItem *"
+			],
+			[
+				"shitty",
+				"shittyRange(const Vector position)	bool"
+			],
+			[
+				"PROFIL",
+				"PROFILE_FUNCTION(description)	macro"
+			],
+			[
+				"Profil",
+				"PROFILE_FUNCTION(description)	macro"
+			],
+			[
+				"pos",
+				"position()	const Vector"
+			],
+			[
+				"random",
+				"randomInt()	int"
+			],
+			[
+				"bore",
+				"boredom_	int"
+			],
+			[
+				"wor",
+				"world_	World *"
+			],
+			[
+				"veloc",
+				"velocity_	Vector"
+			],
+			[
+				"def",
+				"deflectorRadius()	double"
+			],
+			[
+				"deflector",
+				"deflectorGlow_	double"
+			],
+			[
+				"deflect",
+				"deflectorGlow_	double"
+			],
+			[
+				"deflec",
+				"deflectorGlow_	double"
+			],
+			[
+				"see",
+				"seed48(unsigned short *)	unsigned short *"
+			],
+			[
+				"drawFla",
+				"drawFlareGlows()	void"
+			],
+			[
+				"position",
+				"absolutePositionOf(const Vector point)	Vector"
+			],
+			[
+				"ab",
+				"absolutePosition()	Vector"
+			],
+			[
+				"render",
+				"renderRawVerts(bool shitty)	void"
+			],
+			[
+				"tea",
+				"glowForTeam(int teamId, double glow)	Color"
+			],
+			[
+				"coo",
+				"cooldownStart_	int"
+			],
+			[
+				"cool",
+				"cooldown_	int"
+			],
+			[
+				"Z",
+				"Z_ROT_270	const Quaternion"
+			],
+			[
+				"mod",
+				"modules_	RacistList<Module *>"
+			],
+			[
+				"forT",
+				"glowForTeam(int teamId)	Color"
+			],
+			[
+				"orient",
+				"orientation_	Quaternion"
+			],
+			[
+				"interce",
+				"interceptTime	double"
+			],
+			[
+				"vel",
+				"velocity_	Vector"
+			],
+			[
+				"normal",
+				"normalized() const	Vector"
+			],
+			[
+				"target",
+				"targetAngularVelocity	Vector"
+			],
+			[
+				"tar",
+				"targetPower =	double"
+			],
+			[
+				"spee",
+				"speedSign	int"
+			],
+			[
+				"targ",
+				"targetAcceleration	double"
+			],
+			[
+				"ang",
+				"angularSpeed	double"
+			],
+			[
+				"angul",
+				"angularMomentum_	Vector"
+			],
+			[
+				"nor",
+				"normalized() const	Vector"
+			],
+			[
+				"error_",
+				"previousError_	double"
+			],
+			[
+				"inertial",
+				"inertialTensor_	Vector"
+			],
+			[
+				"angular",
+				"angularVelocityError =	Vector"
+			],
+			[
+				"ve",
+				"vector_	Vector"
+			],
+			[
+				"v",
+				"vector_	Vector"
+			],
+			[
+				"sphere",
+				"sphereRadius	double"
+			],
+			[
+				"e",
+				"explodingObjectType()	ObjectType"
+			],
+			[
+				"explodi",
+				"explodingObjectType_	ObjectType"
+			],
+			[
+				"orie",
+				"orientation_	Quaternion"
+			],
+			[
+				"glVertex2d",
+				"glVertex2d(GLdouble x, GLdouble y)	void"
+			],
+			[
+				"GL_LINEAR_MIP",
+				"GL_LINEAR_MIPMAP_NEAREST	macro"
+			],
+			[
+				"face",
+				"faceData_	QVector<Vector> *"
+			],
+			[
+				"velo",
+				"velocity	const Vector"
+			],
+			[
+				"frame",
+				"fragments_	QList<Vector *>"
+			],
+			[
+				"fragm",
+				"fragments_	QList<Vector>"
+			],
+			[
+				"camera",
+				"cameraPosition_	Vector"
+			],
+			[
+				"write",
+				"writeAndOpen"
+			],
+			[
+				"veloci",
+				"velocityError"
+			],
+			[
+				"defle",
+				"deflectorPower_"
+			],
+			[
+				"defl",
+				"deflectorDamage"
+			],
+			[
+				"cam",
+				"cameraPosition"
+			],
+			[
+				"cameaO",
+				"cameraOrientation"
+			],
+			[
+				"yRo",
+				"yRotation"
+			],
+			[
+				"xRot",
+				"xRotation_"
+			],
+			[
+				"ori",
+				"orientation_"
+			],
+			[
+				"absol",
+				"absoluteOrientation"
+			],
+			[
+				"invers",
+				"inverseInertialTensor_"
+			],
+			[
+				"apply",
+				"applyTorqueAlongXAxis"
+			],
+			[
+				"return",
+				"returnTwoThings"
+			],
+			[
+				"world",
+				"worldCamera"
+			],
+			[
+				"curren",
+				"currentShipDef"
+			],
+			[
+				"local",
+				"localCombatTeam"
+			],
+			[
+				"handle",
+				"handleMouseDown"
+			],
+			[
+				"comp",
+				"computerPosition"
+			],
+			[
+				"posi",
+				"positionToGridCoordinates"
+			],
+			[
+				"posit",
+				"position"
+			],
+			[
+				"positionOff",
+				"positionOffsetInGridCoordinates"
+			],
+			[
+				"update",
+				"updateDeflectorPosition"
+			],
+			[
+				"dest",
+				"destroyedObjects"
+			],
+			[
+				"bul",
+				"BulletRenderer"
+			],
+			[
+				"aut",
+				"autopilotName"
+			],
+			[
+				"side",
+				"sidebarLayer"
+			],
+			[
+				"used",
+				"usedLabels"
+			],
+			[
+				"max",
+				"maxDeflectorPower"
+			],
+			[
+				"auto",
+				"autopilotModule"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/tup.sublime-build",
+	"command_palette":
+	{
+		"height": 95.0,
+		"selected_items":
+		[
+			[
+				"notes",
+				"Set Syntax: Lecture Notes"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"package",
+				"Package Control: Enable Package"
+			],
+			[
+				"package contr",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: List Packages"
+			],
+			[
+				"package control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/james/Projects/Website/index.html",
+		"/Users/james/Projects/Website/script.js",
+		"/Users/james/Projects/Website/style.css",
+		"/Users/james/Courses/ENEL583 4th Year Project/logbook/logbook.txt",
+		"/Users/james/Courses/ENEL583 4th Year Project/teamlunch.github.com/index.html",
+		"/Volumes/Media/System/Websites/jamesthorne.ca/index.html",
+		"/Users/james/Projects/Website/Old Website/index.html",
+		"/Users/james/Projects/Website/font/font-awesome.min.css",
+		"/Users/james/Projects/Website/font/font-awesome-ie7.min.css",
+		"/Users/james/Courses/ENTI405 New Ventures/Lecture Notes",
+		"/Users/james/Courses/ENEL583 4th Year Project/Last Minute Hacks/wifi_setup original.sh",
+		"/Users/james/Courses/ENEL583 4th Year Project/Last Minute Hacks/runAutopilot.sh",
+		"/Users/james/Desktop/schlock.rss",
+		"/Users/james/Zoo/Zoo Rolling Meeting Minutes",
+		"/Users/james/Zoo/Tech Elec/Tech Elec Prof Emails",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/3rdparty/unittest-cpp/UnitTest++/src/TestRunner.cpp",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/3rdparty/unittest-cpp/UnitTest++/src/Test.cpp",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/3rdparty/unittest-cpp/UnitTest++/src/TestDetails.cpp",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/3rdparty/unittest-cpp/UnitTest++/src/TestReporterStdout.cpp",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/3rdparty/unittest-cpp/UnitTest++/src/TestReporter.cpp",
+		"/Users/james/Projects/FlappyFace/.gitignore",
+		"/Users/james/Projects/Spacegame/src/math/Quaternion.h",
+		"/Users/james/Projects/Spacegame/src/math/Quaternion.cxx",
+		"/Users/james/Projects/Spacegame/src/math/RigidBody.h",
+		"/Users/james/Projects/Spacegame/src/math/RigidBody.cxx",
+		"/Users/james/Projects/Spacegame/src/math/Quaternion.o",
+		"/Users/james/Zoo/AGM/AGM Prep.notes",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/TestExitsHoverModeWhenInDanger.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/TestBenchLogger.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/CollisionAvoidanceCore.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/GroundStationReportingCore.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/GroundStationReportingCore.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/I_SensorReader.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/common/FakeSensorReader.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/common/FakeSensorReader.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/SensorDataSmoother.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/SensorDataSmoother.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/AutopilotCore.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/AutopilotCore.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/common/MessageHelpers.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/app/GroundStation.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/app/GroundStation.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/app/main.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/app/SensorReader.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/app/SensorReader.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/app/CommandProxy.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/app/CommandProxy.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/TestReportsToGroundStation.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/common/MessageHelpers.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/StringHelpers.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/StringHelpers.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/CollisionAvoidanceDefs.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/CollisionAvoidanceCore.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/TestBenchLogger.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/WallDetector.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/TestReportsSensorData.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/I_GroundStation.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/common/FakeGroundStation.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/common/FakeGroundStation.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/common/FakeArDrone.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/common/FakeArDrone.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/common/FakeCommandProxy.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/TestInterpretsCommandsCorrectly.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/TestProxiesCommands.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/TestAvoidsWalls.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/TestSupportsDiagonalSensors.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/TestSaysHelloToTestBench.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/TestSmoothsSensorData.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/FlightCommandCodec.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/I_TestBenchLogger.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/common/FakeTestBenchLogger.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/common/FakeTestBenchLogger.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/WallDetector.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/test/TestExitsHoverModeWhenInDanger",
+		"/Users/james/Courses/ENEL583 4th Year Project/logbook/script for video 2.txt",
+		"/Users/james/Courses/ENEL583 4th Year Project/old/vm/autopilot/src/CollisionAvoidanceCore.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/old/vm/autopilot/src/AutopilotCore.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/old/vm/autopilot/src/AutopilotCore.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/sshvm.sh",
+		"/Users/james/Courses/ENEL583 4th Year Project/project.sublime-project",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/.gitignore",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/autopilot/src/FlightCommandCodec.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/workspace/vm/data/Sample Sensor Data.txt",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/test/TestAvoidsWalls.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/3rdparty/unittest-cpp/UnitTest++/src/CheckMacros.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/StringHelpers.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/test/TestInterpretsCommandsCorrectly.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/FlightCommandCodec.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/CollisionAvoidanceCore.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/CollisionAvoidanceCore.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/AutopilotCore.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/AutopilotCore.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/3rdparty/unittest-cpp/UnitTest++/src/tests/TestCheckMacros.cpp",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/test/TestProxiesCommands.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/FlightCommandCodec.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/StringHelpers.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/test/TestReportsSensorData.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/test/TestInterpretsCommandsCorrectly.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/I_SensorReader.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/FlightCommandTranslator.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/FlightCommandTranslator.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/app/CommandProxy.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/app/main.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/test/common/FakeTestBenchLogger.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/test/common/FakeTestBenchLogger.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/TestBenchLogger.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/TestBenchLogger.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/test/common/RandomHelpers.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/Makefile",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/app/CommandProxy.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/test/common/FakeCommandProxy.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/test/common/FakeCommandProxy.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/I_CommandReceiver.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/I_CommandSender.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/test/TestSaysHelloToTestBench.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/helloCommandProxy/main.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/SensorReader.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/3rdparty/libphidget/libphidget-2.1.8.20120514/phidget21.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/SensorReader.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/helloWorld/test-sensors.c",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/app/SensorReader.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/app/SensorReader.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/.gitignore",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/tools/runTest.sh",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/test/common/FakeAutopilot.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/test/common/FakeAutopilot.cxx",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/test/common/RandomHelpers.h",
+		"/Users/james/Courses/ENEL583 4th Year Project/vm/autopilot/src/I_TestBenchLogger.h"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"film",
+			"short films",
+			":hover",
+			"content",
+			"../font",
+			".* \\: ",
+			"\\)$",
+			"TEST\\(",
+			"^[0-9]+\\:",
+			"^Test.*",
+			"1_",
+			"(data\\[.*\\])",
+			"\\]",
+			"data\\[",
+			"arDrone\\.",
+			"\\(arDrone, ",
+			"FakeArDrone arDrone;\\n *arDrone.autopilot\\(\\).startup\\(\\);",
+			"arDrone",
+			"FakeArDrone& arDrone",
+			"FakeArDrone& arDrone, ",
+			"FakeArDrone& arDrone",
+			"FakeArDrone& arDrone, ",
+			"printf",
+			"print",
+			"_64",
+			"expected.*;",
+			"Back",
+			"expectedMessage",
+			"Int",
+			"FakeAutopilot",
+			"app",
+			"cp",
+			"texture",
+			"0\\.5",
+			"1",
+			"texture",
+			"BattleDev",
+			"\\.all<(.*)\\*>",
+			" begin\\(\\)",
+			"begin\\(\\)",
+			"iterator",
+			"Engine",
+			"Structure",
+			"0\\.5",
+			"\\*",
+			"mouseDown",
+			"velocity",
+			"target_",
+			"drawExplosions",
+			"GL_COLOR",
+			"goal",
+			"inverse",
+			"color_",
+			"position_",
+			"physics",
+			"simulatePhysics",
+			"testbench",
+			"applyCollisionWith",
+			"drawBullets",
+			"world_\\.",
+			"world",
+			"Engine",
+			"module",
+			"bin/\\.\\./",
+			"world",
+			"simulation_",
+			"world_\\.",
+			"world_.",
+			"(.*)",
+			"options_script",
+			"options",
+			"\\.\\./\\.\\./",
+			" \\.\\./",
+			" ../",
+			" \\.\\./",
+			"\\.\\./",
+			"drawBullets",
+			"delete ",
+			"\\(type.*\\((.*)\\)\\)",
+			"meshForModule",
+			"objectIs\\((.*), (.*)\\)",
+			"scope",
+			"error",
+			"line",
+			"gldepthmask",
+			"32",
+			"lodepng",
+			"decode",
+			"addShip",
+			"deflectorPower",
+			"\\*this",
+			"0.2",
+			"glTranslate3",
+			"rotationTo",
+			"match",
+			"auto",
+			"brack",
+			"auto",
+			"Mesh",
+			"Space\\\\\\\\ Game",
+			"sublime",
+			"font",
+			"facesLo_",
+			"virtual",
+			"face[.]",
+			"Lo",
+			"deflector",
+			"ships",
+			"simulate",
+			"focus",
+			"objectIs",
+			";;",
+			"installModule\\((.*)\\)",
+			"installMo",
+			"Q_FOREACH",
+			"gl",
+			"Bullet",
+			"position",
+			"L_BLEND",
+			"color",
+			"5",
+			"500",
+			"0.1",
+			"simulate",
+			"Engine",
+			"CFLAGS",
+			"(Vector|Quaternion)&",
+			"(Quaternion|Vector)&"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"PASS :    \\1",
+			"",
+			"2_",
+			"calculateSafetyLevelOf(\\1)",
+			")",
+			"sensorReader_.reading(",
+			"arDrone().",
+			"(",
+			"FakeArDrone::setup();",
+			"arDrone()",
+			"",
+			"randomDouble();",
+			"Rear",
+			"sensorReadings",
+			"Double",
+			"FakeArDrone",
+			"0.55",
+			"0.5",
+			"EndlessBattle",
+			".all<$1>",
+			"Structure",
+			"Gyro",
+			"1",
+			"+",
+			"world_->",
+			"",
+			"world_->",
+			"\"\\1\",",
+			"../",
+			" ../../",
+			"../../",
+			"../../\n../../",
+			"typeIs(type, $1)",
+			"(type == ClassType($2))",
+			"ship",
+			"0.5",
+			"Spacegame",
+			"face->",
+			";",
+			"modules_.append($1);",
+			"Explosion",
+			"worldSize",
+			"5",
+			"accuracy",
+			"render",
+			"Weapon",
+			"LFLAGS",
+			"$1",
+			"void Gyro::",
+			"0.8",
+			"Gyro",
+			"applyLocalForce",
+			"$1 Class::$2;",
+			"installModule",
+			"$(BASE)",
+			"0",
+			"self.drawable",
+			"Sprite.Sprite",
+			"$1 = lambda module: module$2",
+			"object",
+			"App.world",
+			"",
+			"from Scalar import *",
+			"scalarBound",
+			"scalarSign",
+			"scalarMix",
+			"",
+			"@Timing.timedFunction\\ndef ",
+			"item",
+			"vectorN",
+			"vectorD",
+			"vectorR",
+			"vectorO",
+			"vectorM",
+			"vectorS",
+			"vectorA",
+			"vectorS",
+			"from Vector import *",
+			"def vector",
+			"S",
+			"",
+			"@Timing.timedFunction\\n   def simulate",
+			"",
+			"@Timing.timedFunction\\ndef ",
+			"Misc.Bullet(",
+			"module = Modules.",
+			"Sprite.draw",
+			""
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/james/Courses/ENEL583 4th Year Project/Last Minute Hacks/wifi_setup original.sh"
+			],
+			[
+				"testbench",
+				"workspace/vm/autopilot/src/TestBenchLogger.cxx"
+			],
+			[
+				"stringhelpers",
+				"workspace/vm/autopilot/src/StringHelpers.h"
+			],
+			[
+				"stringhel",
+				"workspace/vm/autopilot/src/StringHelpers.h"
+			],
+			[
+				"stringhl",
+				"workspace/vm/autopilot/src/StringHelpers.h"
+			],
+			[
+				"sensordatasmo",
+				"workspace/vm/autopilot/src/SensorDataSmoother.cxx"
+			],
+			[
+				"sensordatasmoo",
+				"workspace/vm/autopilot/src/SensorDataSmoother.cxx"
+			],
+			[
+				"fakesensorrea",
+				"workspace/vm/autopilot/src/test/common/FakeSensorReader.cxx"
+			],
+			[
+				"groundstation",
+				"workspace/vm/autopilot/src/GroundStationReportingCore.cxx"
+			],
+			[
+				"messagehelpers",
+				"workspace/vm/autopilot/src/test/common/MessageHelpers.cxx"
+			],
+			[
+				"messageh",
+				"workspace/vm/autopilot/src/test/common/MessageHelpers.cxx"
+			],
+			[
+				"fakeard",
+				"workspace/vm/autopilot/src/test/common/FakeArDrone.cxx"
+			],
+			[
+				"messagehe",
+				"workspace/vm/autopilot/src/test/common/MessageHelpers.h"
+			],
+			[
+				"message",
+				"workspace/vm/autopilot/src/test/common/MessageHelpers.cxx"
+			],
+			[
+				"faketest",
+				"workspace/vm/autopilot/src/test/common/FakeTestBenchLogger.cxx"
+			],
+			[
+				"collision",
+				"workspace/vm/autopilot/src/CollisionAvoidanceCore.cxx"
+			],
+			[
+				"testcheckmac",
+				"vm/3rdparty/unittest-cpp/UnitTest++/src/tests/TestCheckMacros.cpp"
+			],
+			[
+				"randomhelpers",
+				"vm/autopilot/src/test/common/RandomHelpers.cxx"
+			],
+			[
+				"test-sens",
+				"vm/helloWorld/test-sensors.c"
+			],
+			[
+				"sensor",
+				"vm/autopilot/src/SensorReader.cxx"
+			],
+			[
+				"runtest",
+				"vm/tools/runTest.sh"
+			],
+			[
+				"opengl",
+				"src/ui/OpenGlCore.cxx"
+			],
+			[
+				"rendercore",
+				"src/render/RenderCore.cxx"
+			],
+			[
+				"endless",
+				"src/simulation/EndlessBattle.cxx"
+			],
+			[
+				"module.cxx",
+				"src/world/modules/Module.cxx"
+			],
+			[
+				"camera.cxx",
+				"src/world/Camera.cxx"
+			],
+			[
+				"module",
+				"src/world/modules/Module.cxx"
+			],
+			[
+				"weapon.cxx",
+				"src/world/modules/Weapon.cxx"
+			],
+			[
+				"gyro.cxx",
+				"src/world/modules/Gyro.cxx"
+			],
+			[
+				"engine.cxx",
+				"src/world/modules/Engine.cxx"
+			],
+			[
+				"openglc",
+				"src/ui/OpenGlCore.cxx"
+			],
+			[
+				"racistlist",
+				"src/math/RacistList.h"
+			],
+			[
+				"world",
+				"src/world/World.cxx"
+			],
+			[
+				"world.cxx",
+				"src/world/World.cxx"
+			],
+			[
+				"battle",
+				"src/simulation/testbench/BattleDev.cxx"
+			],
+			[
+				"renderc",
+				"src/render/RenderCore.cxx"
+			],
+			[
+				"racist",
+				"src/math/RacistList.h"
+			],
+			[
+				"profile.cxx",
+				"src/shared/Profile.cxx"
+			],
+			[
+				"mesh.cxx",
+				"src/render/Mesh.cxx"
+			],
+			[
+				"profile.h",
+				"src/shared/Profile.h"
+			],
+			[
+				"racistlsit",
+				"Packages/Rails/Create-timestamp-column.sublime-snippet"
+			],
+			[
+				"engine.h",
+				"src/world/modules/Engine.h"
+			],
+			[
+				"main.cxx",
+				"src/app/main.cxx"
+			],
+			[
+				"battledev",
+				"src/simulation/testbench/BattleDev.cxx"
+			],
+			[
+				"ship.cxx",
+				"src/world/Ship.cxx"
+			],
+			[
+				"openglcore",
+				"src/ui/OpenGlCore.cxx"
+			],
+			[
+				"battlede",
+				"src/simulation/testbench/BattleDev.cxx"
+			],
+			[
+				"bullet.cxx",
+				"src/world/Bullet.cxx"
+			],
+			[
+				"shipcontrol",
+				"src/world/autopilot/ShipControl.cxx"
+			],
+			[
+				"autop",
+				"src/world/autopilot/Autopilot.cxx"
+			],
+			[
+				"auto",
+				"src/world/autopilot/Autopilot.cxx"
+			],
+			[
+				"battl",
+				"src/simulation/testbench/BattleDev.cxx"
+			],
+			[
+				"bat",
+				"src/simulation/testbench/BattleDev.cxx"
+			],
+			[
+				"ship.cx",
+				"src/world/Ship.cxx"
+			],
+			[
+				"vector",
+				"src/math/Vector.h"
+			],
+			[
+				"camera",
+				"src/render/Camera.cxx"
+			],
+			[
+				"explosiondev",
+				"src/simulation/testbench/ExplosionDev.cxx"
+			],
+			[
+				"explosion",
+				"src/world/Explosion.cxx"
+			],
+			[
+				"enginecxx",
+				"src/world/modules/Engine.cxx"
+			],
+			[
+				"worl",
+				"src/world/World.cxx"
+			],
+			[
+				"rendercore.",
+				"src/render/RenderCore.cxx"
+			],
+			[
+				"color.cxx",
+				"src/math/Color.cxx"
+			],
+			[
+				"explo",
+				"src/world/Explosion.cxx"
+			],
+			[
+				"weapon",
+				"src/world/modules/Weapon.cxx"
+			],
+			[
+				"ship.",
+				"src/world/Ship.cxx"
+			],
+			[
+				"ship",
+				"src/world/Ship.cxx"
+			],
+			[
+				"explosion.cxx",
+				"src/world/Explosion.cxx"
+			],
+			[
+				"bullet",
+				"src/world/Bullet.cxx"
+			],
+			[
+				"expand",
+				"Packages/User/Expand.py"
+			],
+			[
+				"mainwindow",
+				"src/ui/MainWindow.cxx"
+			],
+			[
+				"rigid",
+				"src/math/RigidBody.cxx"
+			],
+			[
+				"quaternion",
+				"src/math/Quaternion.cxx"
+			],
+			[
+				"gyro",
+				"src/world/modules/Gyro.cxx"
+			],
+			[
+				"rigidbody",
+				"src/math/RigidBody.cxx"
+			],
+			[
+				"battled",
+				"src/simulation/testbench/BattleDev.cxx"
+			],
+			[
+				"shipcontrols",
+				"Starsplosion/src/simulation/ShipControls.py"
+			],
+			[
+				"vector.cxx",
+				"src/math/Vector.cxx"
+			],
+			[
+				"autopi",
+				"src/world/autopilot/Autopilot.cxx"
+			],
+			[
+				"autopilot",
+				"src/world/autopilot/Autopilot.cxx"
+			],
+			[
+				"gyro.cx",
+				"src/world/modules/Gyro.cxx"
+			],
+			[
+				"batt",
+				"src/simulation/testbench/BattleDev.cxx"
+			],
+			[
+				"weap",
+				"src/world/modules/Weapon.cxx"
+			],
+			[
+				"shipcontro",
+				"src/world/autopilot/ShipControl.cxx"
+			],
+			[
+				"rigidbo",
+				"src/math/RigidBody.h"
+			],
+			[
+				"vector.h",
+				"src/math/Vector.h"
+			],
+			[
+				"tuprules",
+				"src/Tuprules.tup"
+			],
+			[
+				"ship.h",
+				"src/world/Ship.h"
+			],
+			[
+				"shell",
+				"Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+			],
+			[
+				"simulation",
+				"src/simulation/Simulation.cxx"
+			],
+			[
+				"simulation.cxx",
+				"src/simulation/Simulation.cxx"
+			],
+			[
+				"sublime",
+				"Packages/SublimeClang/SublimeClang.sublime-settings"
+			],
+			[
+				"sublime-settings",
+				"Packages/SublimeClang/SublimeClang.sublime-settings"
+			],
+			[
+				"glcore",
+				"src/ui/OpenGlCore.cxx"
+			],
+			[
+				"tupfile",
+				"bin/Tupfile"
+			],
+			[
+				"wea",
+				"src/simulation/modules/Weapon.cxx"
+			],
+			[
+				"mesh",
+				"src/render/Mesh.cxx"
+			],
+			[
+				"expl",
+				"src/simulation/misc/Explosion.h"
+			],
+			[
+				"newclas",
+				"User/NewClass.py"
+			],
+			[
+				"color.h",
+				"src/math/Color.h"
+			],
+			[
+				"new",
+				"User/NewClass.py"
+			],
+			[
+				"render",
+				"src/render/RenderCore.h"
+			],
+			[
+				"newcl",
+				"User/NewClass.py"
+			],
+			[
+				"quate",
+				"src/math/Quaternion.cxx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": false
+}

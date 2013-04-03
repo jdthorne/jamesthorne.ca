@@ -40,6 +40,7 @@ $(function() {
       if (!isWhiteout)
       {
          $("#whiteout").fadeIn(50, function() {
+            $(".panel").stop(true);
             $(".panel").css('margin-left', '500px');
          });
 
@@ -119,6 +120,26 @@ $(function() {
       }
    }
 
+   var getImageDimensions = function(path,callback) {
+       var img = new Image();
+       img.onload = function() {
+           callback({
+               width : img.width,
+               height : img.height
+           });
+       };
+       img.src = path;
+   }
+
+   var verifyBackgroundImageIsOk = function() {
+      getImageDimensions($("#background").attr("src"), function(image) {
+         if ( (image.width != 2808) || (image.height != 1755) )
+         {
+            $("#background").hide();
+         }
+      });
+   };
+
    $(window).bind("load", function() {
       isLoaded = true;
       clearWhiteout();
@@ -145,5 +166,11 @@ $(function() {
       window.onhashchange = function() {
          checkHash();
       };
+
+      $("img").error(function(){
+         $(this).hide();
+      });
+
+      verifyBackgroundImageIsOk();
    });
 });
