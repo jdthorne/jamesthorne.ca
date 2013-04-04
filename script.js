@@ -17,6 +17,8 @@ $(function() {
          $(arr[i]).show();
          if(arr[++i])
             $(arr[i]).slideDown(200, arguments.callee)
+         else
+            $(".panel").show();
       })();
    };
 
@@ -41,7 +43,7 @@ $(function() {
       if (!isWhiteout)
       {
          $("#whiteout").fadeIn(50, function() {
-            $(".panel").stop(true);
+            $(".panel").stop(true, true);
             $(".panel").hide();
          });
 
