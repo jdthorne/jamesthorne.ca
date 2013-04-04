@@ -415,13 +415,6 @@
 	},
 	"buffers":
 	[
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/User/tup.sublime-build",
 	"command_palette":
@@ -430,20 +423,20 @@
 		"selected_items":
 		[
 			[
-				"notes",
-				"Set Syntax: Lecture Notes"
-			],
-			[
 				"wrap",
 				"Word Wrap: Toggle"
 			],
 			[
-				"sort",
-				"Sort Lines"
-			],
-			[
 				"tabs",
 				"View: Toggle Tabs"
+			],
+			[
+				"notes",
+				"Set Syntax: Lecture Notes"
+			],
+			[
+				"sort",
+				"Sort Lines"
 			],
 			[
 				"package",
@@ -466,7 +459,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 435.0
+		"width": 588.0
 	},
 	"console":
 	{
@@ -484,8 +477,8 @@
 	"file_history":
 	[
 		"/Users/james/Projects/Website/index.html",
-		"/Users/james/Projects/Website/script.js",
 		"/Users/james/Projects/Website/style.css",
+		"/Users/james/Projects/Website/script.js",
 		"/Users/james/Courses/ENEL583 4th Year Project/logbook/logbook.txt",
 		"/Users/james/Courses/ENEL583 4th Year Project/teamlunch.github.com/index.html",
 		"/Volumes/Media/System/Websites/jamesthorne.ca/index.html",
@@ -863,34 +856,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -943,6 +910,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"css",
+				"style.css"
+			],
 			[
 				"",
 				"/Users/james/Courses/ENEL583 4th Year Project/Last Minute Hacks/wifi_setup original.sh"
@@ -1370,6 +1341,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 273.0,
+	"side_bar_width": 200.0,
 	"status_bar_visible": false
 }

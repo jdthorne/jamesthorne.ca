@@ -7,15 +7,16 @@ $(function() {
    var makeAllPanelsAppear = function() {
       if (isShowingContent)
       {
-         $(".panel").css("margin-left", "0px");
+         $(".panel").show();
          return;
       }
 
       var i = -1;
       var arr = $(".panel");
       (function(){
+         $(arr[i]).show();
          if(arr[++i])
-            $(arr[i]).animate({'margin-left': '0px'}, 250, arguments.callee)
+            $(arr[i]).slideDown(250, arguments.callee)
       })();
    };
 
@@ -41,7 +42,7 @@ $(function() {
       {
          $("#whiteout").fadeIn(50, function() {
             $(".panel").stop(true);
-            $(".panel").css('margin-left', '500px');
+            $(".panel").hide();
          });
 
          isWhiteout = true;
@@ -133,7 +134,7 @@ $(function() {
 
    var verifyBackgroundImageIsOk = function() {
       getImageDimensions($("#background").attr("src"), function(image) {
-         if ( (image.width != 2808) || (image.height != 1755) )
+         if ( (image.width != 1920) || (image.height != 1200) )
          {
             $("#background").hide();
          }
