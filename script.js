@@ -16,7 +16,7 @@ $(function() {
       (function(){
          $(arr[i]).show();
          if(arr[++i])
-            $(arr[i]).slideDown(250, arguments.callee)
+            $(arr[i]).slideDown(200, arguments.callee)
       })();
    };
 
