@@ -4,6 +4,10 @@ $(function() {
 
    var isShowingContent = false;
 
+   var hideHashBang = function() {
+      history.pushState("", document.title, window.location.pathname + window.location.search);
+   }
+
    var makeAllPanelsAppear = function() {
       if (isShowingContent)
       {
@@ -86,15 +90,14 @@ $(function() {
 
       isShowingContent = true;
 
-      //location.replace(('' + window.location).split("#")[0] + "#!" + panelName);
       window.location.hash = "!" + panelName;
    };
 
    var closePanel = function() {
       $("#content").fadeOut();
-      window.location.hash = "";
 
       isShowingContent = false;
+      hideHashBang();
    };
 
    var getCurrentHashRequest = function() {
