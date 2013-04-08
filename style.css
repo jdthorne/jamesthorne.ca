@@ -51,7 +51,7 @@ body
 
 #whiteout
 {
-   position: absolute;;
+   position: absolute;
    top: 0px;
    left: 0px;
    right: -1px;
@@ -59,6 +59,8 @@ body
 
    background-color: black;
    z-index: 5;
+
+   display: none;
 }
 
 body
