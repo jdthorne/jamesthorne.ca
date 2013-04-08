@@ -5,7 +5,10 @@ $(function() {
    var isShowingContent = false;
 
    var hideHashBang = function() {
-      history.pushState("", document.title, window.location.pathname + window.location.search);
+      if (window.location.hash != "")
+      {
+         history.pushState("", document.title, window.location.pathname + window.location.search);
+      }
    }
 
    var makeAllPanelsAppear = function() {
@@ -29,6 +32,7 @@ $(function() {
    var clearWhiteout = function() {
       if (!isWhiteout) return;
 
+      clearTimeout(whiteoutTimeout);
       whiteoutTimeout = null;
       $("#whiteout").fadeOut(200, function() {
          $("#whiteout").css("display", "none");
@@ -55,10 +59,19 @@ $(function() {
       }
    };
 
+   var lastHeight = 0;
+   var lastWidth = 0;
    var handleResize = function() {
       var height = $(window).height();
       var width = $(window).width();
-
+      
+      if (lastWidth == width && lastHeight == height)
+      {
+         return;
+      }
+      lastWidth = width;
+      lastHeight = height;
+ 
       var backgroundImageHeightWillBe = width * (1200/1920);
       if (backgroundImageHeightWillBe > height)
       {
@@ -148,6 +161,7 @@ $(function() {
 
    $(window).bind("load", function() {
       isLoaded = true;
+
       clearWhiteout();
    });
 
