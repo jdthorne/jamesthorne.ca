@@ -622,6 +622,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"load",
+			"text",
+			"1920",
+			"name-banner",
+			".panel",
+			"-column",
 			"film",
 			"short films",
 			":hover",
@@ -743,13 +749,7 @@
 			"L_BLEND",
 			"color",
 			"5",
-			"500",
-			"0.1",
-			"simulate",
-			"Engine",
-			"CFLAGS",
-			"(Vector|Quaternion)&",
-			"(Quaternion|Vector)&"
+			"500"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -847,7 +847,7 @@
 			"Sprite.draw",
 			""
 		],
-		"reverse": true,
+		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -910,6 +910,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"styl",
+				"style.css"
+			],
+			[
+				"scrip",
+				"script.js"
+			],
+			[
+				"inde",
+				"index.html"
+			],
 			[
 				"css",
 				"style.css"
