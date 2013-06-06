@@ -328,3 +328,74 @@ h1
 {
    background: url(appstore-white.png);
 }
+
+
+/********************************************************************
+                  ANTEX BUG ON HOMEPAGE
+ ********************************************************************/
+
+.antex
+{
+   position: absolute;
+   left: 55px;
+   top: 260px;
+
+   color: white;
+   width: 450px;
+
+   text-align: center;
+}
+
+.antex-description
+{
+   width: 134px;
+   border-radius: 10px;
+   background-color: rgba(0, 0, 0, 0.8);
+   color: white;
+   padding: 5px;
+
+   text-align: middle;
+
+   font-size: 16pt;
+
+   border: solid 2px #ddd;
+   margin-bottom: 10px;
+}
+
+.antex-image
+{
+   background: url(antex-hd.png);
+   width: 144px;
+   height: 144px;
+   border-radius: 10px;
+   border: solid 2px #DDD;
+
+   cursor: pointer;
+   margin-bottom: 10px;
+}
+
+.antex-appstore
+{
+   width: 150px;
+   height: 53px;
+
+   background: url(appstore.png);
+   cursor: pointer;
+}
+
+.antex-appstore:hover
+{
+   background: url(appstore-white.png);
+}
+
+.antex-more-info
+{
+   margin-top: 40px;
+   display: none;
+   font-size: 36pt;
+}
+
+.antex-image:hover .antex-more-info
+{
+   display: block;
+}

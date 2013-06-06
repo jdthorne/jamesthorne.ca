@@ -147,7 +147,7 @@ $(function() {
 
    $(window).ready(function() {
 
-      $(".appstore").bind("click", function() {
+      $(".appstore, .antex-appstore").bind("click", function() {
          window.location = $(this).data("url");
       })
 
