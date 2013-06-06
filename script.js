@@ -139,26 +139,6 @@ $(function() {
       }
    }
 
-   var getImageDimensions = function(path,callback) {
-       var img = new Image();
-       img.onload = function() {
-           callback({
-               width : img.width,
-               height : img.height
-           });
-       };
-       img.src = path;
-   }
-
-   var verifyBackgroundImageIsOk = function() {
-      getImageDimensions($("#background").attr("src"), function(image) {
-         if ( (image.width != 1920) || (image.height != 1200) )
-         {
-            $("#background").hide();
-         }
-      });
-   };
-
    $(window).bind("load", function() {
       isLoaded = true;
 
@@ -166,6 +146,10 @@ $(function() {
    });
 
    $(window).ready(function() {
+
+      $(".appstore").bind("click", function() {
+         window.location = $(this).data("url");
+      })
 
       $(".go-back").bind("click", function() {
          closePanel();
@@ -190,7 +174,5 @@ $(function() {
       $("img").error(function(){
          $(this).hide();
       });
-
-      verifyBackgroundImageIsOk();
    });
 });

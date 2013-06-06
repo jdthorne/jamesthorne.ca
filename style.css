@@ -311,3 +311,20 @@ h1
    .panel-intro     { font-size: 10pt; }
    .panel-intro i   { font-size: 12px; }
 }
+
+.appstore
+{
+   background: url(appstore.png);
+   width: 150px;
+   height: 53px;
+   display: inline-block;
+   vertical-align: middle;
+   float: right;
+
+   cursor: pointer;
+}
+
+.appstore:hover
+{
+   background: url(appstore-white.png);
+}
